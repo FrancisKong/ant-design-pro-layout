@@ -42,8 +42,8 @@ export default (
     formatMessage,
   );
   return {
-    breadcrumb: fromEntries(renderData.breadcrumb),
-    breadcrumbMap: renderData.breadcrumb,
+    breadcrumb: fromEntries(breadcrumb),
+    breadcrumbMap: breadcrumb,
     menuData: renderData.menuData,
   };
 };
